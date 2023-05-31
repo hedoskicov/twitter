@@ -8,6 +8,8 @@ import android.os.Handler
 import android.view.WindowManager
 
 class MainActivity : AppCompatActivity() {
+
+    // deneme commit
     override fun onCreate(savedInstanceState: Bundle?) {
 
         window.setFlags(
