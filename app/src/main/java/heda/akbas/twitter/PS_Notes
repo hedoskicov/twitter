@@ -1,0 +1,19 @@
+package heda.akbas.twitter
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+@override
+puclic class MainActivity exends AppCompatActivity{
+
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+    new Handler().postDelayed(new Runnable(){
+    @override
+    public void run(){
+    startActivity(new Intent(MainActivity.this,MainActivity2.class));
+    fnish();
+    }
+    },4000);
+    }
+    }
